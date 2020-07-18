@@ -14,7 +14,7 @@ namespace BuilderPattern
             builder
                     .SetName("This product name")
                     .SetWeight("400", WeightUnits.Kilograms)
-                    .SetBestBefore(DateTime.UtcNow)
+                    ;
             //pBuider.SetName("PEgs").SetWeight()
             
         }

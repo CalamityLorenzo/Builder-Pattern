@@ -1,7 +1,7 @@
 namespace v2
 {
     using System;
-    public class ProductBestBeforeBuilder<T> : ProductWeightBuilder<T>  where T : ProductBestBeforeBuilder<T>
+    public class ProductBestBeforeBuilder<T> : ProductDescriptionBuilder<T>  where T : ProductBestBeforeBuilder<T>
     {
         public T SetBestBefore(DateTime bbf)
         {
